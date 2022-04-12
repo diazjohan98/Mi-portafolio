@@ -20,10 +20,13 @@ body {
 /*----- ------ HEADER ------ -----*/
 
 header {
-    background: url('../img/FONDOJ.jpg') #49a3d6;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/fondo1.jpg') #49a3d6;
+    height: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode:darken;
 }
 header .menu {
     margin: 40px 0;
